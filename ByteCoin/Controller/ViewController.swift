@@ -4,7 +4,7 @@ import UIKit
 class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     
     @IBOutlet weak var currencyLabel: UILabel!
-    @IBOutlet weak var bitcoinLabel: UILabel!
+    @IBOutlet weak var bitcoinLabel: UIImageView!
     @IBOutlet weak var currencyPicker: UIPickerView!
     
     let coinManager = CoinManager()
